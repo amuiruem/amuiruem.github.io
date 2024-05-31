@@ -1,10 +1,111 @@
+
+
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hello, World!</title>
-	</head>
-	<body>
-	<h1>Hello, Wolrd!</h1>
-	<p>홈페이지 오신 것을 화녕</p>
-	</body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인 웹페이지</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-size: 15px;
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(to bottom right, #a374db, #0d9afc);
+
+}
+
+#profile-photo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #444d81;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        
+        <h1>박성국</h1>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>소개</h2>
+        <p> 안녕하세요. 현재 동양 미래대에 재학중인 1학년 박성국입니다.</p>
+        <p>영문명: Park Seong Guk</p>
+        <p>이메일: <a href="seongguk012@dongyang.ac.kr">seongguk012@dongyang.ac.kr</a></p>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills">
+        <h2>기술스택</h2>
+        <ul>
+            <li>프로그래밍 언어: Html, css</li>
+            <li>도구: Git, Slack, Notion</li>
+        </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>대학 정보</h2>
+        <p>동양미래대학교, 컴퓨터소프트웨어학과 재학, 2024년 입학</p>
+    </section>
+
+    <!-- Projects/Experience -->
+    <section id="projects">
+        <h2>기술개발 경험</h2>
+        <div class="project">
+            <h3>프로젝트 이름</h3>
+            <p>브라이틱스 데이터 분석</p>
+            <p>오렌지 보드를 활용한 IoT 활용</p>
+        </div>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests">
+        <h2>관심 기술분야</h2>
+        <p>인공지능, 머신러닝, 웹개발 등에 관심이 있습니다. </p>
+<img src="cat.jpg" width="70px" height="40px">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 박성국, 2024</p>
+        <p><a href="seongguk012@dongyanv.ac.kr">LinkedIn</a> | <a href="https://github.com/amuiruem/amuiruem.github.io">GitHub</a></p>
+    </footer>
+</body>
 </html>
